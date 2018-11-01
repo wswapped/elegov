@@ -96,3 +96,6 @@ button.btn.btn-highlight {
 .normal-elink:hover .img-overlay{
     background: #b392107a;
 }
+li.services-list-item {
+    margin-bottom: 10px;
+}
