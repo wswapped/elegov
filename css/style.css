@@ -19,8 +19,9 @@ ul, li{
     position: relative;
     top: 3vh;
     background: #fff !important;
-    box-shadow: 0.5px -0.55px 1px 1px #2196f3;
-    border-radius: 0 0 2px 2px;
+    box-shadow: 1px -1px 10px 3px #00000087;
+    /* border-radius: 25px; */
+    text-align: center;
 }
 .header-search, .highlight-color, input.highlight-color::placeholder{
     color: #f5ce08;
