@@ -3,48 +3,57 @@
   text-align: center;
 }
 .header-bg{
-	background: url(../assets/header-bg.jpg) no-repeat;
-	max-height: 40vh;
-	background-size: cover;
-	padding: 10px;
+    background: url(../assets/header-bg.jpg) no-repeat;
+    max-height: 40vh;
+    background-size: cover;
+    padding: 10px;
 }
 .header-bg .emblem{
 }
 .header-bg img{
-	max-width: 100%a
+    max-width: 100%a
 }
 .header-bg nav{
-	margin-top: 12vh;
+    margin-top: 12vh;
 }
 .header-search, .highlight-color, input.highlight-color::placeholder{
-	color: #f5ce08;
+    color: #f5ce08;
 }
 input.highlight-color, .search-icon{
-	border-color: #f5ce08;
+    border-color: #f5ce08;
 }
 .search-itext{
-	border-right-width: 0px;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
+    border-right-width: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .search-icon{
-	border-left-width: 0px;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
+    border-left-width: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 .header-search .search-icon, .header-search .search-itext{
-	background: transparent;
+    background: transparent;
 }
 .header-bg .nav-item.active *{
-	color: #f5ce08 !important;
+    color: #f5ce08 !important;
 }
 
 .header-bg .nav-item .icon{
-	font-size: 1.7em;
+    font-size: 1.7em;
 }
 .header-color{
-	color: #066A97;
+    color: #066A97;
 }
+
+
+.header-bg a.nav-item.nav-link.active {
+    border-bottom: 3px solid #F4CE08;
+    padding: 0;
+}
+
+.header-bg a.nav-item.nav-link.active .nav-text{position: relative;top: 1vh;}
+
 
 .img-overlay{text-align: center;vertical-align: text-top;background: #021119c2;}
 button.btn.btn-highlight {
