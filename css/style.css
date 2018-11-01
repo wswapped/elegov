@@ -1,6 +1,6 @@
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+ul, li{
+    list-style: none;
+    list-style-type: none;
 }
 .header-bg{
     background: url(../assets/header-bg.jpg) no-repeat;
@@ -90,6 +90,7 @@ button.btn.btn-highlight {
 
 .normal-elink, .normal-elink:hover, .normal-elink:focus{
     text-decoration: none;
+    color: inherit;
 }
 
 .normal-elink:hover .img-overlay{
