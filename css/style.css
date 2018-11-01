@@ -55,7 +55,7 @@ input.highlight-color, .search-icon{
 .header-bg a.nav-item.nav-link.active .nav-text{position: relative;top: 1vh;}
 
 
-.img-overlay{text-align: center;vertical-align: text-top;background: #021119c2;}
+.img-overlay{text-align: center;vertical-align: text-top;background: #021119c2;padding-bottom: 10px;}
 button.btn.btn-highlight {
     border-color: #f1c518;
     border-width: 2px;
@@ -86,4 +86,12 @@ button.btn.btn-highlight {
 }
 .quick-box-img-cont {
     text-align: center;
+}
+
+.normal-elink, .normal-elink:hover, .normal-elink:focus{
+    text-decoration: none;
+}
+
+.normal-elink:hover .img-overlay{
+    background: #b392107a;
 }
