@@ -99,3 +99,9 @@ button.btn.btn-highlight {
 li.services-list-item {
     margin-bottom: 10px;
 }
+.footer{
+    margin-top: 3vh;
+    background: #066a97;
+    padding: 20px;
+    color: #fff;
+}
