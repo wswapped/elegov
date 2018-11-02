@@ -4,7 +4,7 @@ ul, li{
 }
 .header-bg{
     background: url(../assets/header-bg.jpg) no-repeat;
-    max-height: 40vh;
+    /* max-height: 40vh; */
     background-size: cover;
     padding: 10px;
     padding-bottom: 0;
